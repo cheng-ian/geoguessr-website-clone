@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.textblur {
+  background: rgba(255, 255, 255, 0.05); 
+  backdrop-filter: blur(2px);
+  text-shadow: 2px 2px #000000;
+}
+.nunito-1 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 80px;
+  color: white;
+}
+
+.nunito-2 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+
+.nunito-3 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 15px;
+  color: gray;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+.navbar2 {
+  background-color: #001133;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navElement {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bulk {
+  background-image: url('https://images3.alphacoders.com/831/831673.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  margin-top: 0px;
+  margin-bottom: 0px;  
+}
+
+.lillogo {
+  padding-left: 20px;
+}
+
+.round-button {
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.nav-button {
+    color: white; 
+    padding: 5px 10px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 10px;   
+}
+
+.green {
+  background-color: #5acc5a;
+}
+
+.join-button {
+ background-color: rgba(20, 20, 20, .1);
+ border: 2px solid white;
+}
+
+.login-button {
+   background-color: #444444;
+}
+
+.transparent {
+  background-color: rgba(20, 20, 20, .45);
+}
+
+.spacer {
+  padding-top: 20px;
+}
+
+.reviewtext {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(20, 20, 20, .45);
+  max-width: 600px;
+  padding: 30px;
+  text-align: left;
+}
+
+.navbartext {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 10px;
+  color: white;
+}
